@@ -4,12 +4,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Layout Setting
-tab1, tab2, tab3 = st.tabs(['Pendahuluan', 'Q1', 'Q2'])
-
-# Main Page Setting
+# Header Setting
 st.title('Proyek Analisis Data: Air Quality Dataset')
 st.subheader('Shafira Nurrusyifa | shafiraenn')
+
+# Layout Setting
+tab1, tab2, tab3 = st.tabs(['Pendahuluan', 'Q1', 'Q2'])
 
 # Tab 1: Intros
 with tab1:
