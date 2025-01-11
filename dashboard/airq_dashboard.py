@@ -46,9 +46,9 @@ colors = {'CO': 'red', 'SO2': 'purple', 'O3': 'blue', 'PM2.5': 'yellow', 'PM10':
 
 # Tab 2: Question 1
 with tab2:
-  st.header('Tren tahunan konsentrasi polutan di Beijing')
+  st.header('Tren Tahunan Konsentrasi Polutan di Beijing')
 
-  st.text('Terjadi sedikit kenaikan di tahun 2014 pada setiap polutan di setiap area administratif, kemudian konsentrasi polutan terus menurun sampai 2016 dan kembali naik di tahun 2017 (kecuali pada O3). Hal ini dikarenakan data yang terekam pada dataset di tahun 2017 merupakan periode paling tercemar di setiap tahun akibat penggunaan pemanas, serta persiapan produksi untuk Tahun Baru China')
+  st.text('Terjadi sedikit kenaikan di tahun 2014 pada setiap polutan di setiap area administratif, kemudian konsentrasi polutan terus menurun sampai 2016 dan kembali naik di tahun 2017 (kecuali pada O3). Hal ini dikarenakan data yang terekam pada dataset di tahun 2017 merupakan periode paling tercemar di setiap tahun akibat penggunaan pemanas, serta persiapan produksi untuk Tahun Baru China.')
 
   fig, axes = plt.subplots(2, 2, figsize=(15, 10), sharex=True)
   axes = axes.flatten()
@@ -68,7 +68,7 @@ with tab2:
 
 # Tab 3: Question 3
 with tab3:
-  st.header('Korelasi antara faktor meteorologi dengan konsentrasi polutan')
+  st.header('Korelasi Antara Faktor Meteorologi dengan Konsentrasi Polutan')
 
   st.text('Koefisien korelasi antara faktor meteorologi dengan konsentrasi polutan menunjukkan korelasi yang rendah - sedang, sehingga usaha untuk sistem peringatan dini lebih baik dialihkan untuk sesuatu yang lebih mendesak (contoh: penggunaan dan penyediaan sumber daya dan sarana prasaana yang lebih berkelanjutan).')
 
