@@ -11,4 +11,6 @@ pip install -r requirements.txt
 ```
 
 ## Run Streamlit
+```
 streamlit run airq_dashboard.py
+```
