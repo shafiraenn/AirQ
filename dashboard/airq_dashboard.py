@@ -70,7 +70,7 @@ with tab2:
 with tab3:
   st.header('Korelasi Antara Faktor Meteorologi dengan Konsentrasi Polutan')
 
-  st.text('Koefisien korelasi antara faktor meteorologi dengan konsentrasi polutan menunjukkan korelasi yang rendah - sedang, sehingga usaha untuk sistem peringatan dini lebih baik dialihkan untuk sesuatu yang lebih mendesak (contoh: penggunaan dan penyediaan sumber daya dan sarana prasaana yang lebih berkelanjutan).')
+  st.text('Koefisien korelasi antara faktor meteorologi dengan konsentrasi polutan menunjukkan korelasi yang rendah - sedang, sehingga usaha untuk sistem peringatan dini lebih baik dialihkan untuk sesuatu yang lebih mendesak (contoh: penggunaan dan penyediaan sumber daya dan sarana prasarana yang lebih berkelanjutan).')
 
   fig, axes = plt.subplots(2, 2, figsize=(10, 10))
   axes = axes.flatten()
