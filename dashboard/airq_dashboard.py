@@ -22,18 +22,18 @@ with tab1:
 
 # Data Loading
 # Area dataframe
-tiantan_df = pd.read_csv('Tiantan.csv')
-wanliu_df = pd.read_csv('Wanliu.csv')
-changping_df = pd.read_csv('Changping.csv')
-huairou_df = pd.read_csv('Huairou.csv')
+tiantan_df = pd.read_csv('dashboard/Tiantan.csv')
+wanliu_df = pd.read_csv('dashboard/Wanliu.csv')
+changping_df = pd.read_csv('dashboard/Changping.csv')
+huairou_df = pd.read_csv('dashboard/Huairou.csv')
 
 dataframes = [tiantan_df, wanliu_df, changping_df, huairou_df]
 
 # Yearly area dataframe
-tiantan_yearly_df = pd.read_csv('yearly_Tiantan.csv')
-wanliu_yearly_df = pd.read_csv('yearly_Wanliu.csv')
-changping_yearly_df = pd.read_csv('yearly_Changping.csv')
-huairou_yearly_df = pd.read_csv('yearly_Huairou.csv')
+tiantan_yearly_df = pd.read_csv('dashboard/yearly_Tiantan.csv')
+wanliu_yearly_df = pd.read_csv('dashboard/yearly_Wanliu.csv')
+changping_yearly_df = pd.read_csv('dashboard/yearly_Changping.csv')
+huairou_yearly_df = pd.read_csv('dashboard/yearly_Huairou.csv')
 
 yearly_df = [tiantan_yearly_df, wanliu_yearly_df, changping_yearly_df, huairou_yearly_df]
 
